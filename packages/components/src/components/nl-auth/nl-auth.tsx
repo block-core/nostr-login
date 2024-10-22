@@ -195,7 +195,7 @@ export class NlAuth {
                     </svg>
                   )}
                 </button>
-                {!state.isLoading && (
+                {/* {!state.isLoading && (
                   <button
                     onClick={() => (state.path = [...state.path, CURRENT_MODULE.INFO])}
                     type="button"
@@ -210,7 +210,7 @@ export class NlAuth {
                       />
                     </svg>
                   </button>
-                )}
+                )} */}
                 <button
                   onClick={() => this.handleClose()}
                   type="button"

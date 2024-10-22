@@ -19,7 +19,7 @@ export class NlInfo {
         <h1 class="nl-title font-bold text-center text-4xl">
           Nostr <span class="font-light">Login</span>
         </h1>
-        <p class="text-green-800 dark:text-green-200 font-light text-center text-lg pt-2 max-w-96 mx-auto">Version: 0.0.1</p>
+        {/* <p class="text-green-800 dark:text-green-200 font-light text-center text-lg pt-2 max-w-96 mx-auto">Version: 0.0.1</p> */}
       </div>
     );
   }
