@@ -1,5 +1,5 @@
 {
-  "name": "@blockcore/nostr-login",
+  "name": "@blockcore/nostr-login-workspace",
   "workspaces": {
     "packages": [
       "packages/**"

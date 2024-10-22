@@ -1,5 +1,5 @@
 {
-  "name": "nostr-login",
+  "name": "@blockcore/nostr-login",
   "version": "1.0.2",
   "description": "",
   "main": "./dist/index.esm.js",
@@ -19,7 +19,7 @@
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-terser": "^0.4.4",
-    "nostr-login-components": "^1.0.2",
+    "@blockcore/nostr-login-components": "^1.0.2",
     "prettier": "^3.2.2",
     "rollup": "^4.9.6",
     "rollup-plugin-typescript2": "^0.36.0"
