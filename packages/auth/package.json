@@ -9,7 +9,10 @@
     "build": "rollup -c",
     "format": "npx prettier --write src"
   },
-  "author": "a-fralou",
+  "author": "blockcore",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@nostr-dev-kit/ndk": "^2.3.1",
     "nostr-tools": "^1.17.0",
@@ -24,5 +27,6 @@
     "rollup": "^4.9.6",
     "rollup-plugin-typescript2": "^0.36.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "04a55fa795fc5c21f6947ba419acee22e3fbe583"
 }
