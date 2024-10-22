@@ -1,4 +1,4 @@
-import { Info, AuthMethod, ConnectionString } from 'nostr-login-components/dist/types/types';
+import { Info, AuthMethod, ConnectionString } from '@blockcore/nostr-login-components/dist/types/types';
 
 export interface NostrLoginAuthOptions {
   localNsec?: string;

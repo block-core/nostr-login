@@ -1,5 +1,5 @@
 import { localStorageAddAccount, bunkerUrlToInfo, isBunkerUrl, fetchProfile, getBunkerUrl, localStorageRemoveCurrentAccount, createProfile, getIcon } from '../utils';
-import { ConnectionString, Info } from 'nostr-login-components/dist/types/types';
+import { ConnectionString, Info } from '@blockcore/nostr-login-components/dist/types/types';
 import { generatePrivateKey, getEventHash, getPublicKey, nip19 } from 'nostr-tools';
 import { NostrLoginAuthOptions, Response } from '../types';
 import NDK, { NDKEvent, NDKNip46Signer, NDKPrivateKeySigner, NDKRpcResponse, NDKUser, NDKRpcRequest } from '@nostr-dev-kit/ndk';

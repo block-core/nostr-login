@@ -1,8 +1,8 @@
-import 'nostr-login-components';
+import '@blockcore/nostr-login-components';
 import { AuthNostrService, NostrExtensionService, Popup, NostrParams, Nostr, ProcessManager, BannerManager, ModalManager } from './modules';
 import { NostrLoginOptions, StartScreens } from './types';
 import { localStorageGetAccounts, localStorageGetCurrent, localStorageGetRecents, localStorageSetItem } from './utils';
-import { Info } from 'nostr-login-components/dist/types/types';
+import { Info } from '@blockcore/nostr-login-components/dist/types/types';
 import { NostrObjectParams } from './modules/Nostr';
 
 export class NostrLoginInitializer {

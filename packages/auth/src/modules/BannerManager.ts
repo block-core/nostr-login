@@ -1,6 +1,6 @@
 import { NostrLoginOptions, TypeBanner } from '../types';
 import { NostrParams } from '.';
-import { CURRENT_MODULE, Info } from 'nostr-login-components/dist/types/types';
+import { CURRENT_MODULE, Info } from '@blockcore/nostr-login-components/dist/types/types';
 import { EventEmitter } from 'tseep';
 import { getDarkMode } from '../utils';
 

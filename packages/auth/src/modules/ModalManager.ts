@@ -2,7 +2,7 @@ import { NostrLoginOptions, RecentType, StartScreens, TypeModal } from '../types
 import { checkNip05, getBunkerUrl, getDarkMode, localStorageRemoveRecent, localStorageSetItem } from '../utils';
 import { AuthNostrService, NostrExtensionService, NostrParams } from '.';
 import { EventEmitter } from 'tseep';
-import { Info } from 'nostr-login-components/dist/types/types';
+import { Info } from '@blockcore/nostr-login-components/dist/types/types';
 import { nip19 } from 'nostr-tools';
 import { setDarkMode } from '..';
 

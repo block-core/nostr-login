@@ -1,4 +1,4 @@
-import { Info } from 'nostr-login-components/dist/types/types';
+import { Info } from '@blockcore/nostr-login-components/dist/types/types';
 import NDK, { NDKEvent, NDKRelaySet, NDKSigner, NDKUser } from '@nostr-dev-kit/ndk';
 import { generatePrivateKey } from 'nostr-tools';
 import { NostrLoginOptions, RecentType } from '../types';
