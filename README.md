@@ -4,7 +4,7 @@ Nostr-Login
 This library is a powerful `window.nostr` provider.
 
 ```
-<script src='/dist/unpkg.js'></script>
+<script src='https://www.unpkg.com/@blockcore/nostr-login@1.0.7/dist/unpkg.js'></script>
 ```
 
 Just add the above script to your HTML and 
